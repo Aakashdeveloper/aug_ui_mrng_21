@@ -22,3 +22,29 @@ Jquery > DOM
 
 Block> start from the new line
 InLine> Start in the same line
+
+/////////
+inline css
+style tag
+stylesheet
+
+<h1>
+</h1>
+
+inlinecss > color:red, font-size:30px
+styletag > color:green, text-align:center
+stylesheet > color:orange, font-size:40px; font-weight:bold; text-align:right
+
+inlinecss > styletag > stylesheet
+
+color:red, font-size:30px;text-align:center;font-weight:bold;
+
+tagname > it will target all the tags 
+         (tragte p tag then it will apply properties to all p tag of page)
+
+id > to target unique element
+    (to target particular element only)
+    
+class > To target group of Element use classname
+        (multiple element should get same property)
+
