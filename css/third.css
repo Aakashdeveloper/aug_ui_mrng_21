@@ -1,0 +1,20 @@
+h1{
+    color:green
+}
+.secondHeading{
+    text-align:center;
+    color:white
+}
+.mainDiv{
+    width:49%;
+    background-color:teal;
+    display:inline-block;
+    color:white;
+    overflow: scroll;
+}
+.green{
+        background-color:olive;
+}
+#myheading{
+    color:rgb(50, 77, 167)
+}
