@@ -7,9 +7,6 @@ body{
     background-repeat:no-repeat;
     background-size: 100% 500px;
 }
-#QuickSearch{
-    background-color: skyblue;
-}
 
 .header{
     height:70px;
@@ -56,3 +53,88 @@ body{
     margin-top: 1%;
     position: absolute;
   }
+
+#heading{
+    color:white;
+    font-size:35px;
+    margin: auto;
+    margin-top:2%;
+    background-color:skyblue;
+    width:30%;
+}
+
+#dropdown{
+    height: 60px;
+    width:60%;
+    margin-left: 27%;
+    margin-top:3%;
+}
+
+select{
+    height: 60px;
+    width:40%;
+    border-radius: 2%;
+}
+
+/* Part second css */
+
+#QuickSearch{
+    height:500px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#QuickSearchHeading{
+    color:#192f60;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    display: block;
+}
+#QuickSubHeading{
+    color:gray;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.mainTileContainer{
+    margin-top: 8%;
+}
+
+.tileContainer{
+    display: inline-block;
+    height:180px;
+    width:30%;
+    border:5px groove gray;
+    margin-left: 2%;
+}
+
+.tileComponent1{
+    width:46%;
+    float: left;
+}
+
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.tileComponent1 > img{
+    height:180px;
+    width:100%
+}
+
+.componentHeading{
+    color:#192f60;
+    font-size:25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+}
