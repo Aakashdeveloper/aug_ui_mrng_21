@@ -44,7 +44,22 @@ body{
     text-align: center;
     font-size:90px;
     color:red;
+    margin-left: 10%;
+    animation: moveLogo 20s infinite;
+}
+
+/*
+#logo{
     margin-left: 45%;
+    transition: margin-left 5s;
+}*/
+
+@keyframes moveLogo {
+    0% {margin-left: 10%;}
+    25% {margin-left: 45%;}
+    50% {margin-left: 90%;}
+    75% {margin-left: 70%;}
+    100% {margin-left: 45%;}
 }
 
 #logo> span{
@@ -112,6 +127,13 @@ select{
     margin-left: 2%;
 }
 
+.tileContainer:hover{
+    /*transform: scale(1.1);
+     transform: rotate(0deg);
+     transform: skewY(30deg)*/
+     transform: scale(1.1);
+}
+
 .tileComponent1{
     width:46%;
     float: left;
@@ -137,4 +159,83 @@ select{
 .componentSubHeading{
     color:gray;
     font-size:18px;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:lightseagreen
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:lightcoral
+    }
+    #heading{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:skyblue
+    }
+    .tileContainer{
+        width:40%;
+        margin-left: 5%;
+    }
+    #QuickSearch{
+        margin-left: 14%;
+    }
+    #heading{
+        width:40%;
+    }
+    
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:lightslategray
+    }
+    .tileContainer{
+        width:42%;
+        color:white
+    }
+    .componentSubHeading{
+        color:white
+    }
+    #heading{
+        width:48%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:lightpink
+    }
+    .tileContainer{
+        width:90%;
+        margin-top:2%
+    }
+    #heading{
+        width:60%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:lightgreen
+    }
+    .tileContainer{
+        width:90%;
+        margin-top:2%
+    }
+    #heading{
+        font-size:20px;
+        width:50%;
+    }
+    #logo{
+        margin-left: 38%;
+    }
+
 }

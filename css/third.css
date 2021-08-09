@@ -18,3 +18,12 @@ h1{
 #myheading{
     color:rgb(50, 77, 167)
 }
+
+#mypadding{
+    border:2px solid red;
+    margin:10px;
+}
+
+#padpara{
+    padding:20px;
+}
