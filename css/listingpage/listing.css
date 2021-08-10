@@ -1,0 +1,64 @@
+#header{
+    background-color:#8d7916;
+    height: 80px;
+    width: 100%;
+}
+body{
+    margin:auto;
+}
+
+#logo_main{
+    height:70px;
+    width: 70px;
+    background-color:white;
+    border-radius: 50%;
+    margin-left: 8%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#heading{
+    margin: 20%;
+    color:#8d7916
+}
+
+#social{
+    display: inline-block;
+    float: right;
+    margin-right: 4%;
+    margin-top: 15PX;
+}
+
+.socailicon{
+    height:50px;
+    width:50px
+}
+
+#main{
+    width:80%;
+    margin-left: 10%;
+    margin-top:2%
+}
+
+#main > h1{
+    color: rgb(97, 104, 8)
+}
+
+#filter{
+    height:600px;
+    width:25%;
+    border: 2px solid gray;
+    float: left;
+}
+
+#content_main{
+    float: left;
+    width:70%;
+    margin-left:4%
+}
+.content{
+    height:300px;
+    width:100%;
+    border: 2px solid gray;
+    margin-top: 2%;
+}
