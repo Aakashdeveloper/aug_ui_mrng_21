@@ -48,3 +48,8 @@ id > to target unique element
 class > To target group of Element use classname
         (multiple element should get same property)
 
+
+xs < 768
+sm >768
+md >992
+lg >1200

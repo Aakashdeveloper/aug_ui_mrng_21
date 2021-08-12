@@ -1,3 +1,28 @@
 .btn-success{
     background-color:olive !important;
 }
+
+#first{
+    height:200px;
+    background-color:lightblue
+}
+#second{
+    height:200px;
+    background-color:lightcoral
+}
+#third{
+    height:200px;
+    background-color:lightgreen
+}
+#four{
+    height:200px;
+    background-color:slateblue
+}
+#five{
+    height:200px;
+    background-color:slategray
+}
+#six{
+    height:200px;
+    background-color:hotpink
+}
