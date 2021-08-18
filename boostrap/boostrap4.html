@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            .border{
+                height:100px;
+                width:100px;
+                display: inline-block;
+                margin: 1%;
+            }
+            .card{
+                display: inline-block;
+                margin-left:2%
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <span class="text-muted"> This is P Tag</span>
+            <span class="text-primary"> This is P Tag</span>
+            <span class="text-secondary"> This is P Tag</span>
+            <span class="text-success"> This is P Tag</span>
+            <span class="text-warning"> This is P Tag</span>
+            <span class="text-danger"> This is P Tag</span>
+            <span class="text-info"> This is P Tag</span>
+            <span class="text-dark"> This is P Tag</span>
+            <span class="text-light"> This is P Tag</span>
+            <br/>
+            <span class="bg-success text-light"> This is P Tag</span>
+            <span class="bg-primary text-light"> This is P Tag</span>
+            <span class="bg-secondary text-light"> This is P Tag</span>
+            <span class="bg-success text-light"> This is P Tag</span>
+            <span class="bg-warning text-light"> This is P Tag</span>
+            <span class="bg-danger text-light"> This is P Tag</span>
+            <span class="bg-info text-light"> This is P Tag</span>
+            <span class="bg-dark text-light"> This is P Tag</span>
+            <span class="bg-light text-dark"> This is P Tag</span>
+            <br/>
+            <span class="border border-primary"></span>
+            <span class="border border-success"></span>
+            <span class="border border-warning"></span>
+            <span class="border border-danger"></span>
+            <span class="border border-info"></span>
+            <span class="border border-light"></span>
+            <span class="border border-dark"></span>
+            <br/>
+            <button class="btn btn-primary">Click</button>
+            <button class="btn btn-success">Click</button>
+            <button class="btn btn-warning">Click</button>
+            <button class="btn btn-danger">Click</button>
+            <button class="btn btn-info">Click</button>
+            <button class="btn btn-secondary">Click</button>
+            <button class="btn btn-dark">Click</button>
+            <button class="btn btn-light">Click</button>
+            <br/><br/>
+            <button class="btn btn-outline-primary">Click</button>
+            <button class="btn btn-outline-success">Click</button>
+            <button class="btn btn-outline-warning">Click</button>
+            <button class="btn btn-outline-danger">Click</button>
+            <button class="btn btn-outline-info">Click</button>
+            <button class="btn btn-outline-secondary">Click</button>
+            <button class="btn btn-outline-dark">Click</button>
+            <button class="btn btn-outline-light">Click</button>
+            <br/>
+            <div id="foodList" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#foodList" data-slide-to="0" class="active"></li>
+                    <li data-target="#foodList" data-slide-to="1" class="active"></li>
+                    <li data-target="#foodList" data-slide-to="2" class="active"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="active carousel-item">
+                        <img src="food-wallpaper.png" style="height:500px;width:100%"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nightlife.png" style="height:500px;width:100%"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="lunch.png" style="height:500px;width:100%"/>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#foodList" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#foodList" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            <!--<img src="../css/homepage/food-wallpaper.png" alt="wallpaper"
+            class="rounded-circle"/>
+            <img src="../css/homepage/food-wallpaper.png" alt="wallpaper"
+            class="img-fluid"/>-->
+            <img src="../css/homepage/food-wallpaper.png" alt="wallpaper"
+            class="img-thumbnail" style="height:200px;width:200px"/>
+            <br/>
+            <span class="badge badge-primary">
+                Delhi
+            </span>
+            <span class="badge badge-success">
+                London
+            </span>
+            <span class="badge badge-info">
+                Amsterdam
+            </span>
+            <span class="badge badge-pill badge-warning">
+                Delhi
+            </span>
+            <span class="badge badge-pill badge-danger">
+                London
+            </span>
+            <span class="badge badge-pill badge-info">
+                Amsterdam
+            </span>
+            <br/>
+            <div class="spinner-border text-primary"></div>
+            <div class="spinner-border text-success"></div>
+            <div class="spinner-border text-warning"></div>
+            <div class="spinner-border text-danger"></div>
+            <div class="spinner-border text-info"></div>
+            <div class="spinner-grow text-primary"></div>
+            <div class="spinner-grow text-success"></div>
+            <div class="spinner-grow text-warning"></div>
+            <div class="spinner-grow text-danger"></div>
+            <div class="spinner-grow text-info"></div>
+            <br/>
+            <div class="card" style="width:300px">
+                <img class="card-img-top" src="food-wallpaper.png" alt="wallpaper"/>
+                <div class="card-body">
+                    <h4 class="card-title">Spanish</h4>
+                    <p class="card-text">Food form Spain</p>
+                </div>
+            </div>
+            <div class="card" style="width:300px">
+                <img class="card-img-top" src="lunch.png" alt="lunch"/>
+                <div class="card-body">
+                    <h4 class="card-title">French</h4>
+                    <p class="card-text">Food form France</p>
+                </div>
+            </div>
+            <div class="card" style="width:300px">
+                <img class="card-img-top" src="snacks.png" alt="snacks"/>
+                <div class="card-body">
+                    <h4 class="card-title">Indian</h4>
+                    <p class="card-text">Food form India</p>
+                </div>
+            </div>
+
+
+        </div>  
+    </body>
+
+</html>
