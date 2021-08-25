@@ -76,15 +76,16 @@ git pull
 
 > DataTypes
 > variable
-//////////
+> alert console prompt
 > Operations
 > String literals
-> String Operations
-
 > Math
+//////////
+> String Operations
 > localstorage
 > sessionStorage
 > cookies
+
 > let, const
 > github 
 > condition
