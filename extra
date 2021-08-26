@@ -80,14 +80,14 @@ git pull
 > Operations
 > String literals
 > Math
-//////////
 > String Operations
+> let, const
+//////////
 > localstorage
 > sessionStorage
 > cookies
-
-> let, const
 > github 
+
 > condition
 > if else
 > ternery Operations
