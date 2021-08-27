@@ -82,15 +82,15 @@ git pull
 > Math
 > String Operations
 > let, const
-//////////
 > localstorage
 > sessionStorage
 > cookies
 > github 
-
+//////////
 > condition
 > if else
 > ternery Operations
+
 > Date
 > switch
 > array
@@ -140,3 +140,24 @@ git pull
 > fabonicci
 > factorial
 > palindrome
+
+
+//////git hub/////
+# first time in new folder #
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/augjava.git
+git push -u origin master
+
+#next all time #
+git status
+
+git add .
+git commit -m "first commit"
+git push
+
+git checkout -b homepage
+git push origin homepage
+
+git checkout master
