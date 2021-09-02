@@ -92,14 +92,15 @@ git pull
 > Date
 > switch
 > array
-//////////
-> loops
-> Functions
-> destructure
 > Rest
+> loops
+//////////
+> Functions
 > spread
 > Es6
     > maps,filter
+
+> destructure
 > regex
 > Clousers
 > Hoisting
