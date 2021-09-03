@@ -56,9 +56,38 @@ isEven(50)
 isEven("hii")
 "Number hii is odd"
 
-var data = ['John','Bhumika','Ankit','Aakash','Bhumika','John','Nikita','Bhumika','Ankit','Aakash','John']
+var names = ['John','Bhumika','Ankit','Aakash','Bhumika','John','Nikita','Bhumika','Ankit','Aakash','John','Shruti']
 
-function counter(name){
+function counter(data){
+    var output = []
+    for(i=0;i<data.length;i++){
+        if(output.indexOf(data[i])>-1){
+            console.log('Duplicate value')
+        }else{
+            output.push(data[i])
+        }
+    }
+    console.log(output)
+    var finout = []
+    var count = 0
+    for(i=0;i<output.length;i++){
+        console.log(output[i])
+        count = 0
+        for(j=0;j<data.length;j++){
+            if(data[j]==output[i]){
+                count = count+1
+            }
+        }
+        let myobj = {};
+        myobj.name = output[i]
+        myobj.count = count
+        finout.push(myobj)
+    }
+
+    return finout;
+}
+
+/*
     var John = 0;
     var Bhumika = 0;
     var Ankit = 0;
@@ -79,7 +108,7 @@ function counter(name){
     }
     var out = [{'John':John},{'Bhumika':Bhumika},{'Ankit':Ankit},{'Aakash':Aakash},{'Nikita':Nikita}]
     return out
-}
+}*/
 counter(data)
 [
     {John: 3},
@@ -89,6 +118,15 @@ counter(data)
     {Nikita: 1}
 ]
 
+var data = ['John','Bhumika','Ankit','Aakash','Bhumika','John','Nikita','Bhumika','Ankit','Aakash','John']
+var output = []
+for(i=0;i<data.length;i++){
+    if(output.indexOf(data[i])>-1){
+        console.log('Duplicate value')
+    }else{
+        output.push(data[i])
+    }
+}
 
 //////////////////Rest Es6///////
 function add(...args){
