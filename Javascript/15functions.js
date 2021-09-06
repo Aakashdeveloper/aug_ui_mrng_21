@@ -56,78 +56,6 @@ isEven(50)
 isEven("hii")
 "Number hii is odd"
 
-var names = ['John','Bhumika','Ankit','Aakash','Bhumika','John','Nikita','Bhumika','Ankit','Aakash','John','Shruti']
-
-function counter(data){
-    var output = []
-    for(i=0;i<data.length;i++){
-        if(output.indexOf(data[i])>-1){
-            console.log('Duplicate value')
-        }else{
-            output.push(data[i])
-        }
-    }
-    console.log(output)
-    var finout = []
-    var count = 0
-    for(i=0;i<output.length;i++){
-        console.log(output[i])
-        count = 0
-        for(j=0;j<data.length;j++){
-            if(data[j]==output[i]){
-                count = count+1
-            }
-        }
-        let myobj = {};
-        myobj.name = output[i]
-        myobj.count = count
-        finout.push(myobj)
-    }
-
-    return finout;
-}
-
-/*
-    var John = 0;
-    var Bhumika = 0;
-    var Ankit = 0;
-    var Aakash = 0;
-    var Nikita = 0;
-    for(i=0;i<name.length;i++){
-        if(name[i]=='John'){
-            John = John+1
-        }else if(name[i]=='Bhumika'){
-            Bhumika=Bhumika+1
-        }else if(name[i]=='Ankit'){
-            Ankit=Ankit+1
-        }else if(name[i]=='Aakash'){
-            Aakash=Aakash+1
-        }else if(name[i]=='Nikita'){
-            Nikita=Nikita+1
-        }
-    }
-    var out = [{'John':John},{'Bhumika':Bhumika},{'Ankit':Ankit},{'Aakash':Aakash},{'Nikita':Nikita}]
-    return out
-}*/
-counter(data)
-[
-    {John: 3},
-    {Bhumika: 3},
-    {Ankit: 2},
-    {Aakash: 2},
-    {Nikita: 1}
-]
-
-var data = ['John','Bhumika','Ankit','Aakash','Bhumika','John','Nikita','Bhumika','Ankit','Aakash','John']
-var output = []
-for(i=0;i<data.length;i++){
-    if(output.indexOf(data[i])>-1){
-        console.log('Duplicate value')
-    }else{
-        output.push(data[i])
-    }
-}
-
 //////////////////Rest Es6///////
 function add(...args){
     // receive parameters as array
@@ -147,3 +75,19 @@ add(1,2)
 3
 add(1,2,5,7,4,9)
 28
+
+
+/////////Method///////
+function add(a,b){
+    return a+b
+}
+
+var add = function(a,b){
+    return a+b
+}
+add(1,2)
+3
+
+
+/////////Arrow Function///////
+const add = (a,b) => {return a+b}
