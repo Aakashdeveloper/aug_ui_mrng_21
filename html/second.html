@@ -3,10 +3,25 @@
         <title>Second Page</title>
         <meta name="description" content="Learning Html From Start"/>
         <meta name="keyword" content="html nareshit mycode"/>
+        <script>
+            var counter = 0; // Global Variable
+            function myScroll(){
+                var val = document.getElementById("test");
+                val.innerHTML = 'pageYOffset = ' + window.pageYOffset;
+                if(counter == 0){ // if counter is 1, it will not execute
+                    if(window.pageYOffset > 300){
+                        alert('You have scrolled to second div');
+                        counter++; // increment the counter by 1, new value = 1
+                    }
+                }
+            }
+            window.onscroll = myScroll;
+        </script>
     </head>
     <body>
         <header>
             <center>
+                <h1 id="test" style="position: fixed;"></h1>
                 <h1>Second Page</h1>
                 <a href="first.html">First</a>
                 <a href="https://facebook.com/" target="_blank">Facebook</a>

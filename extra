@@ -98,12 +98,11 @@ git pull
 > spread
 > Es6
     > maps,filter
+> regex
+> destructuring
+> Closures
 //////////
 
-
-> destructure
-> regex
-> Clousers
 > Hoisting
 > object 
 > JSON
