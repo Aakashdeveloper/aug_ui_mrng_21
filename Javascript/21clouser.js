@@ -78,7 +78,6 @@ Answer: 3) '123bcd'
 
 
 var employeeId = 'abc123';
-
 function foo() {
 	employeeId();
 	return;
@@ -115,3 +114,28 @@ function foo() {
 }
 
 number
+
+
+////////////////////////////////////////////////////
+>> Currying function
+
+function mul(a,b,c){
+    return a*b*c
+}
+
+mul(2,3,4)
+24
+
+
+mul(2)(3)(4)
+
+function mul(a){
+    return function(b){
+        return function(c){
+            return a*b*c
+        }
+    }
+}
+
+mul(2)(3)(4)
+24
