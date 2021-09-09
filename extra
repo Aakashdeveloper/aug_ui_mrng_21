@@ -102,8 +102,6 @@ git pull
 > destructuring
 > Closures
 > Hoisting
-//////////
-
 > object 
 > JSON
 > Es6
@@ -112,16 +110,18 @@ git pull
 > package.JSON
 > npm
 > this
+//////////
 > Es6
     > classes
 > Prototypes
 > DoM
+
 > Calc
+> currenyConvertor
+> promis
 > Form validation
 > Event
 > Geolocation
-> currenyConvertor
-> promis
 > async await
 > dark/light mode
 > Dynamic DropDown
@@ -162,3 +162,10 @@ git push origin homepage
 git checkout master
 
 https://nodejs.org/en/
+
+///step to generate package.json
+> open terminal/cmd
+> go inside the folder
+> npm init -y
+
+npm i @babel/core @babel/preset-env @babel/register
