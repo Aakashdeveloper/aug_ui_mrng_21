@@ -110,28 +110,31 @@ git pull
 > package.JSON
 > npm
 > this
-//////////
 > Es6
     > classes
 > Prototypes
 > DoM
-
 > Calc
-> currenyConvertor
-> promis
+//////////
 > Form validation
 > Event
+> dark/light mode
+
+> currenyConvertor
+> promis
 > Geolocation
 > async await
-> dark/light mode
+
 > Dynamic DropDown
 > screen
-> Progress bar
-> Call/Apply
 > set interval
 > set timeout
+> Progress bar
+
+> Call/Apply
 > debouncing
 > Baisc Jquery
+
 > Weather application
 > ajax
 > sets
