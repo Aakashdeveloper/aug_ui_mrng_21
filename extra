@@ -115,18 +115,18 @@ git pull
 > Prototypes
 > DoM
 > Calc
-//////////
 > Form validation
 > Event
+> dummyAPi jsonserver
 > dark/light mode
-
 > currenyConvertor
 > promis
-> Geolocation
 > async await
-
+//////////
+> Geolocation
 > Dynamic DropDown
 > screen
+
 > set interval
 > set timeout
 > Progress bar
@@ -172,3 +172,15 @@ https://nodejs.org/en/
 > npm init -y
 
 npm i @babel/core @babel/preset-env @babel/register
+
+
+// dummy api
+// one time
+>> open your cmd as adminstrator
+>> npm i -g json-server
+>> after complete close cmd
+
+// next every time 
+> open cmd
+> go inside the folder
+> json-server --watch data.json --port 7600
