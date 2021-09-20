@@ -124,20 +124,18 @@ git pull
 > async await
 > Geolocation
 > Dynamic DropDown
-//////////
 > screen
 > set interval
 > set timeout
-> Progress bar
-
-> Call/Apply
 > debouncing
+> Progress bar
+> Call/Apply
 > Baisc Jquery
-
+> DataTables
+//////////
 > Weather application
 > ajax
 > sets
-> DataTables
 > fabonicci
 > factorial
 > palindrome
