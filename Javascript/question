@@ -97,3 +97,40 @@ function counter(data){
 
     return finout;
 }
+
+
+////////
+1 > 1^2 = 1 (happy)
+7 > 7^2 > 49 > (4^2 + 9^2) (16+81) > 97 (9^2+7^2) > (81+49) > 130 (1^2+3^2+0^2) >(1+9+0)> 10 >1
+
+function provideSqure(uinput){
+    let a = uinput.toString().split('');
+    let sum = 0;
+    let out;
+    for(out of a){
+        out = Number(out);
+        sum += out**2
+    }
+    return sum
+}
+
+const finalResponse = (uinput, output=[]) => {
+    let fnresponse;
+    fnresponse = provideSqure(uinput);
+    if(uinput == 1){
+        return `Number is happy`
+    }
+    if(output.indexOf(fnresponse)>-1){
+        return `Number is unhappy`
+    }else{
+        output.push(fnresponse)
+        return finalResponse(fnresponse,output)
+    }
+
+     return `Number is happy`
+}
+
+finalResponse(7)
+'Number is happy'
+finalResponse(22)
+'Number is unhappy'
